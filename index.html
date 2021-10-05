@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="nes-pointer">
+  <head>
+
+    <!-- Meta -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!-- Title  -->
+
+    <title>GameStart</title>
+
+  </head>
+  <body>
+    <h1 class="game-start">
+        Hello World!
+    </h1>
+    <p>
+        Nous utilisons Node.js<span id="node-version"></span>,
+        Chromium<span id="chrome-version"></span>
+        et Electron<span id="electron-version"></span>.
+    </p>
+    <br>
+
+    
+
+    <h1 class="game-start">
+        Apparence
+    </h1>
+
+    <button id="switch-color-mode">Switch mode</button>
+
+    <br>
+
+    <code>
+        win.loadFile('index.html');
+    </code>
+
+    <!-- Scripts -->
+
+    <script src="./src/renderer.js"></script>
+
+  </body>
+</html>

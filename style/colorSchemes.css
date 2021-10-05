@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(15, 15, 15);
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: rgb(240, 240, 240);
+        color: black;
+    }
+}
